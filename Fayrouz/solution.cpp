@@ -4,17 +4,17 @@ using namespace std;
 
 int main()
 {
-    int number_of_problems;    
+    int number_of_problems;
     cin >> number_of_problems;
-    int counter = 0;          
-    while(number_of_problems)     
+    int implemented_problems = 0;
+    while(number_of_problems)
     {
-        int Petya,Vasya,Tonya; 
-        cin>>Petya>>Vasya>>Tonya;
-        if (Petya+Vasya==2||Vasya+Tonya==2||Petya+Tonya==2)
-            counter+=1;
+        int Petya_veiw,Vasya_veiw,Tonya_veiw;
+        cin>>Petya_veiw>>Vasya_veiw>>Tonya_veiw;
+        if (Petya_veiw+Vasya_veiw==2||Vasya_veiw+Tonya_veiw==2||Petya_veiw+Tonya_veiw==2)
+            implemented_problems++;
         number_of_problems--;
     }
-    cout<<counter;
+    cout<<implemented_problems;
     return 0;
 }
