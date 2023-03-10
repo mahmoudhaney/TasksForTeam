@@ -13,7 +13,7 @@
 
 - [ ] [MENNA](Menna/README.md)
 
-- [ ] [MUSTAFA](Mustafa/README.md)
+- [x] [MUSTAFA](Mustafa/README.md)
 
 - [ ] [NOUR](Nour/README.md)
 
