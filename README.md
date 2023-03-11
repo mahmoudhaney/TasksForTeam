@@ -9,7 +9,7 @@
 
 - [ ] [AYA](Aya/README.md)
 
-- [ ] [FAYROUZ](Fayrouz/README.md)
+- [x] [FAYROUZ](Fayrouz/README.md)
 
 - [ ] [MENNA](Menna/README.md)
 
